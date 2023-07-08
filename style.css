@@ -10,7 +10,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .landing{
-    background-image: url('../Downloads/pexels-mareefe-678414.jpg');
+    background-image: url('pexels-mareefe-678414.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
