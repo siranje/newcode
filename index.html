@@ -1,111 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-/* Button used to open the chat form - fixed at the bottom of the page */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-}
-
-/* The popup chat - hidden by default */
-.chat-popup {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
-}
-
-/* Add styles to the form container */
-.form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
-}
-
-/* Full-width textarea */
-.form-container textarea {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-  resize: none;
-  min-height: 200px;
-}
-
-/* When the textarea gets focus, do something */
-.form-container textarea:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/send button */
-.form-container .btn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom:10px;
-  opacity: 0.8;
-}
-
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy Hut - Restaurant in chennai</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h2>Popup Chat Window</h2>
-<p>Click on the button at the bottom of this page to open the chat form.</p>
-<p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p>
-
-<button class="open-button" onclick="openForm()">Chat</button>
-
-<div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Chat</h1>
-
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-
-    <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
-
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
-
+    <!-- pictures download free without copyrights refer: pixel.com -->
+    <!-- refer color palettes : Color Hunt.com -->
+    <div class="landing">
+        <header>
+            <a href="index.html" id="logo">Spicy</a>
+        <nav>
+            <a href="">menu</a>
+            <a href="">location</a>
+        </nav>
+        </header>
+    
+        <div class="maintext">
+            <div class="tagline1">
+                Finest Treat for Taste Buds
+            </div>
+            <div class="tagline2">
+                Freshest Ingredients guaranteed
+            </div>
+            <div class="callus">
+                Callus @+91 8838302564
+            </div>
+            <button>Order Online</button>
+        </div>
+    </div>
+    <h2 id="menuheading">menu</h2>
+    <div class="menu">
+        <div class="starters">
+            <table>
+                <th colspan="2">Starters</th>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+            </table>
+        </div>
+        <div class="main-course">    
+            <table>
+                <th colspan="2">Main course</th>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+            </table>
+        </div>
+        <div class="chats">    
+            <table>
+                <th colspan="2">Chats</th>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer </td> <td>&#8377 180</td></tr>
+                <tr><td>Panneer Taka</td> <td>&#8377 180</td></tr>
+            </table>
+        </div>
+    </div>
+    <h2 id="locheading">Location</h2>
+        <div class="locations">
+            <div class="annanagar">
+                <h2>Annanagar</h2>
+                <address>
+                    2, 1st main road, <br>
+                    annanagar,<br>
+                    chennai - 600102.
+                </address>
+            </div>
+            <div class="velachery">
+                <h2>Velachery</h2>
+                <address>
+                    2, 1st main road, <br>
+                    velachery,<br>
+                    chennai - 600102.
+                </address>
+            </div>
+            <div class="Tambaram">
+                <h2>Tambaram</h2>
+                <address>
+                    2, 1st main road, <br>
+                    Tambaram,<br>
+                    chennai - 600102.
+                </address>
+            </div>
+            <div class="vadabazhani">
+                <h2>Vadabazhani</h2>
+                <address>
+                    2, 1st main road, <br>
+                    vadabazhani,<br>
+                    chennai - 600102.
+                </address>
+            </div>
+        </div>
 </body>
 </html>

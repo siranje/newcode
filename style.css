@@ -1,0 +1,115 @@
+:root{
+    --yello:#F2BE22;
+    --green:#22A699;
+    --orange:#F29727;
+    --red:#F24C3D;
+
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../Downloads/pexels-mareefe-678414.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    text-decoration: none;
+    color: var(--orange);
+    
+}
+header{
+    display: flex;
+    padding: 1em;
+    
+}
+#logo{
+    flex: 3;
+    font-size: 32px;
+}
+nav{
+    flex: 1;
+    font-size: 24px;
+    display: flex;
+}
+nav a{
+    flex: 1;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    height: 40vh;
+    justify-content: center;
+}
+.tagline1{
+    color: var(--green);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: var(--yello);
+}
+.maintext div{
+    margin-top: .8em;
+}
+.maintext button{
+    width: 10vw;
+    padding: .9em;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: ghostwhite;
+    font-weight: bolder;
+    border: var(--green) solid 1px;
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right, rgb(87, 83, 83) , rgb(109, 105, 105));
+    grid-template-columns: repeat(auto-fit,minmax(321px,1fr));
+}
+.locations{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(321px,1fr));
+    row-gap: 20px;
+    text-align: center;
+}
+#menuheading, #locheading{
+    background:linear-gradient(to bottom, #515858,#696362);
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    color: var(--red);
+}
+.menu th{
+    color: var(--green);
+    font-size: 1.8em;
+}
+.locations h2{
+    color: var(--green);
+    font-size: 1.9em;
+    margin-bottom: 1em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    margin-top: 0.8em;
+    justify-content: center;
+    color: ghostwhite;
+
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.main-course{
+    grid-row: span 2;
+}
